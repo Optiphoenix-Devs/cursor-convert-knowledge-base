@@ -43,7 +43,7 @@ function updateVariationCode(payload, variationKey, jsCode, cssCode) {
     });
 }
 
-const updateCode = async () => {
+const updateCode = () => {
     try {
         const { distPath, payloadPath } = config.codeUpdate;
         const resolvedDistPath = path.resolve(__dirname, distPath);
