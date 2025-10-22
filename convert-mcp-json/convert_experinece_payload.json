@@ -40,7 +40,7 @@
           "type": "defaultCode",
           "data": {
             "css": "body { background-color: #e0ffe0; }",
-            "js": "console.log('Variation loaded main');",
+            "js": "console.log('Variation loaded');",
             "custom_js": "window.variationLoaded = true;"
           }
         }

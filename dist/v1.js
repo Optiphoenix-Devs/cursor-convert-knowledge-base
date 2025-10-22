@@ -1,1 +1,1 @@
-console.log('Variation loaded main');
+console.log('Variation loaded');
