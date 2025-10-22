@@ -1,0 +1,13 @@
+{
+  "name": "convert-cursor",
+  "version": "1.0.0",
+  "description": "Convert experience code update utility",
+  "type": "module",
+  "main": "utils/updateCode.js",
+  "scripts": {
+    "updatecode": "node utils/updateCode.js"
+  },
+  "keywords": ["convert", "ab-testing", "optimization"],
+  "author": "",
+  "license": "MIT"
+}

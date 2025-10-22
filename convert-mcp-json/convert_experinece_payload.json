@@ -1,0 +1,63 @@
+{
+  "audiences": [
+    100278
+  ],
+  "locations": [
+    100244
+  ],
+  "goals": [
+    1002467,
+    1002467
+  ],
+  "variations": [
+    {
+      "name": "Control",
+      "description": "This is the control variation.",
+      "is_baseline": true,
+      "traffic_distribution": 0,
+      "key": "control_var",
+      "concurrency_key": "control_conc_key",
+      "changes": [
+        {
+          "type": "defaultCode",
+          "data": {
+            "css": "body { background-color: #f0f0f0; }",
+            "js": "console.log('Control variation loaded');",
+            "custom_js": "window.controlLoaded = true;"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Variation",
+      "description": "This is the test variation.",
+      "is_baseline": false,
+      "traffic_distribution": 100,
+      "key": "variation_var",
+      "concurrency_key": "variation_conc_key",
+      "changes": [
+        {
+          "type": "defaultCode",
+          "data": {
+            "css": "body { background-color: #e0ffe0; }",
+            "js": "console.log('Variation loaded main');",
+            "custom_js": "window.variationLoaded = true;"
+          }
+        }
+      ]
+    }
+  ],
+  "description": "Homepage CTA Button Optimization",
+  "start_time": 169683,
+  "end_time": 1699516,
+  "global_js": "console.log('Homepage CTA Button Optimization')",
+  "global_css": "body.sm_01",
+  "name": "Homepage CTA Button Optimization",
+  "key": "Homepage CTA Button Optimization",
+  "primary_goal": 301,
+  "objective": "MCP integration and improve conversion rates",
+  "status": "draft",
+  "traffic_distribution": 100,
+  "type": "a/b",
+  "url": "https://optiphoenix.com/"
+}
